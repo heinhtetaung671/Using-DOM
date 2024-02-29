@@ -24,6 +24,8 @@ function showMoreAboutMe( ){
    hobbyEle.textContent = me.hobby;
    futurePlanEle.textContent = me.futurePlan;
 
+   elInfoArea.innerHTML = '';
+
    elInfoArea.appendChild(nameEle)
    elInfoArea.appendChild(ageEle)
    elInfoArea.appendChild(educationEle)
